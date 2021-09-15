@@ -14,7 +14,9 @@ import androidx.compose.ui.unit.dp
 import com.usfuchsia.noteappcompose.ui.theme.NoteAppComposeTheme
 import com.usfuchsia.noteappcompose.ui.theme.Purple500
 import com.usfuchsia.noteappcompose.ui.theme.Purple700
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
